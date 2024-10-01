@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Club Membership</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: white;
+            padding: 20px;
+            border-bottom: 2px solid #0000ff;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 15px; /* Adjusted margin between navigation items */
+        }
+
+        nav ul li a {
+            text-decoration: none;  /* No underline by default */
+            font-size: 1rem;
+            color: black;           /* Normal text color */
+            padding: 5px 10px;
+            font-weight: bold;      /* Make text bold */
+            letter-spacing: 1px;    /* Adjust spacing between letters */
+            word-spacing: 5px;      /* Adjust spacing between words */
+        }
+
+        nav ul li a:hover {
+            color: black;                      /* Keep text color normal on hover */
+            text-decoration: underline;        /* Add underline on hover */
+            text-decoration-color: red;        /* Set underline color to red */
+        }
+
+        .download-btn {
+            background-color: #ff5252;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px auto;
+            padding: 0 50px;
+            max-width: 1200px;
+        }
+
+        .left-section img {
+            width: 400px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .right-section {
+            max-width: 600px;
+        }
+
+        .right-section h1 {
+            font-size: 3rem;
+            color: black;
+        }
+
+        .right-section p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+            color: #555;
+        }
+
+        .benefits {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .benefit {
+            background-color: #ffeb3b;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #ff5252;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">MICROSOFT CLUB</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MSC SIST</a></li>
+            <li><a href="#">MSC FOR STUDENT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#" class="download-btn">DOWNLOAD</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="left-section">
+            <!-- Replace with the actual image path or URL -->
+            <img src="c:\Users\thata\OneDrive\Pictures\WhatsApp Image 2024-10-01 at 18.50.21_5b8f8da5.jpg" alt="Membership Card Design">
+        </div>
+
+        <div class="right-section">
+            <h1>MICROSOFT CLUB</h1>
+            <h2> MEMBERSHIP CARD</h2>
+            <div class="benefits">
+                <div class="benefit">Exclusive Events*</div>
+                <div class="benefit">Exposure to Industries</div>
+                <div class="benefit">Microsoft Tools & Courses</div>
+                <div class="benefit">Project Building Sessions</div>
+            </div>
+            <a href="#" class="cta-button">Get Your Free Card Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
